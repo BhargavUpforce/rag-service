@@ -17,17 +17,17 @@ A **FastAPI-based backend** designed for **file uploads** and **real-time chat**
   - Leverages OpenAI for generating contextually relevant responses.
   - Maintains chat history for the **current session only** to ensure focused interactions.
 
----
 
 ## 🛠️ Requirements
 
-- **Python**: Version 3.10 or above
+- **Python**: Version 3.10
 - **Environment Variables**: Create a `.env` file in the root directory with the following keys:
   ```env
   PINECONE_API_KEY="YOUR_PINECONE_API_KEY"
   OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+  ```
 
----
+
 
 ## 🚀 Installation and Setup
 
@@ -62,7 +62,6 @@ Use Postman WebSocket Collection or similar tools to interact with the WebSocket
 ws://127.0.0.1:8000/chat
 ```
 
----
 
 ## 📂 Project Structure
 
@@ -79,7 +78,6 @@ rag-service/
 └── README.md           # Project documentation
 ```
 
----
 
 ## 🏗️ Potential Improvements
 
@@ -87,13 +85,11 @@ rag-service/
 - Organize the code into separate routes for each module to enhance code separation and ease of management.
 - **Note**: As this is a small project, these improvements are optional and may be implemented in the future as the project grows.
 
----
 
 ## 🌟 License
 
 This project is licensed under the **Apache License 2.0**. See the `LICENSE` file for more details.
 
----
 
 ## 📬 Contact
 
