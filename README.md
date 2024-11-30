@@ -9,6 +9,7 @@ A **FastAPI-based backend** designed for **file uploads** and **real-time chat**
 - **File Uploads**:
   - Supports `.pdf`, `.docx`, and `.txt` file uploads.
   - Extracts, cleans unwanted text, and stores chunks of uploaded files in Pinecone for efficient retrieval.
+  - Automatically sets up the Pinecone environment when the server starts, creating necessary indexes and configurations for seamless operation.
 
 
 - **Real-time Chat**:
@@ -40,6 +41,7 @@ cd rag-service
 ```
 
 ### 2. Install Dependencies:
+Create and activate a virtual environment, then install the required dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
